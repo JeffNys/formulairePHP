@@ -14,7 +14,7 @@
     </div>
     <div>
         <label for="prenom">Prénom :</label>
-        <input type="text" id="name" name="user_first_name">
+        <input type="text" id="first_name" name="user_first_name">
     </div>
     <div>
         <label for="courriel">courriel :</label>
@@ -22,11 +22,16 @@
     </div>
     <div>
         <label for="phone">N° de téléphone :</label>
-        <input type="text" id="name" name="user_name">
+        <input type="text" id="phone" name="user_phone">
     </div>
     <div>
         <label for="sujet">Sujet :</label>
-        <input type="text" id="name" name="user_name">
+        <select id="sujet" name="sujet">
+            <option value="reclamations">réclamation</option>
+            <option value="conseilCommercial">conseil commercial</option>
+            <option value="securite">Alerte de sécurité</option>
+            <option value="autre">Autre chose, précisez dans le message</option>
+        </select>
     </div>
     <div>
         <label for="msg">Message :</label>
