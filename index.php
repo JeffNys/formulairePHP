@@ -2,22 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>formulaire PHP</title>
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
     <h1>Formulaire de contact</h1>
     <form action="/ma-page-de-traitement" method="post">
     <div>
-        <label for="name">Nom :</label>
+        <label for="nom">Nom :</label>
         <input type="text" id="name" name="user_name">
     </div>
     <div>
-        <label for="firstName">Prénom :</label>
+        <label for="prenom">Prénom :</label>
         <input type="text" id="name" name="user_first_name">
     </div>
     <div>
-        <label for="mail">courriel :</label>
+        <label for="courriel">courriel :</label>
         <input type="email" id="mail" name="user_mail">
     </div>
     <div>
@@ -25,7 +25,7 @@
         <input type="text" id="name" name="user_name">
     </div>
     <div>
-        <label for="subject">Sujet :</label>
+        <label for="sujet">Sujet :</label>
         <input type="text" id="name" name="user_name">
     </div>
     <div>
