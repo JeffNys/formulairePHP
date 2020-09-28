@@ -8,7 +8,7 @@
   <body>
     <h1>Jusque là, tout va bien</h1>
     <p>salut <?php echo $_POST['user_first_name']; ?> <?php echo $_POST['user_name']; ?>
-        , don adresse de courriel est: <?php echo $_POST['user_mail']; ?> et ton numéro de 
+        , ton adresse de courriel est: <?php echo $_POST['user_mail']; ?> et ton numéro de 
         téléphone est le: <?php echo $_POST['user_phone']; ?></p>
     <p>nous allons traiter ton massage à propos de <?php echo $_POST['user_subject']; ?></p>
 	<p>voici ton message: </p>
