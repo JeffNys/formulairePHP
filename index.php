@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Formulaire de contact</h1>
-    <form action="/ma-page-de-traitement" method="post">
+    <form action="traitement.php" method="post">
     <div>
         <label for="nom">Nom :</label>
         <input type="text" id="name" name="user_name">
@@ -26,7 +26,7 @@
     </div>
     <div>
         <label for="sujet">Sujet :</label>
-        <select id="sujet" name="sujet">
+        <select id="sujet" name="user_subject">
             <option value="reclamations">réclamation</option>
             <option value="conseilCommercial">conseil commercial</option>
             <option value="securite">Alerte de sécurité</option>
@@ -36,6 +36,9 @@
     <div>
         <label for="msg">Message :</label>
         <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Envoyer</button>
     </div>
 </form>
   </body>
